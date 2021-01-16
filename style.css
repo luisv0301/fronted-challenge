@@ -303,7 +303,8 @@ body {
 
 .wrapper6_footer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: #130e82;
     width: 100%;
     padding-top: 2rem;
@@ -311,7 +312,23 @@ body {
 
 
 
+.atribution_a {
+    color:aliceblue;
+}
 
+.atribution {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.72rem;
+}
+
+.pink {
+    color:rgba(242, 117, 255, 1);
+}
+
+.aqua {
+    color: rgba(95, 221, 217, 1);
+}
 
 
 /*close button*/
@@ -482,6 +499,8 @@ body {
 
 
 }
+
+
 
 
 
