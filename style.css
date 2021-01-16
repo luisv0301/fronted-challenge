@@ -426,8 +426,8 @@ body {
     .nav_links_wapper {
         font-size: 1.3rem;
         opacity: 0;
-        height: 100vh;
-        width: 100vw;
+        height: 40%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -435,7 +435,7 @@ body {
         background: rgba(79, 79, 247, 0.75);
         position: fixed;
         left: 0;
-        bottom: 0;
+        top: 0;
         z-index: 3;
         transform: translateY(-1000px);
         visibility: hidden;
@@ -452,12 +452,13 @@ body {
     .nav_links {
         top: 6rem;
         width: 100%;
-        height: 30%;
+        height: 50%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
         position: absolute;
+        margin-left: 0;
     }
 
     .nav_logo_img {
@@ -492,12 +493,15 @@ body {
 .act {
 
     opacity: 1;
-    bottom: 0;
     visibility: visible;
     transform: translateY(0px);
 
 
 
+}
+
+.actnav{
+    position: fixed;
 }
 
 
